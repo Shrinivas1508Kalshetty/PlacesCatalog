@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HeaderTableCell" rowHeight="342" id="sG5-Fw-Juh" customClass="HeaderTableCell" customModule="TestUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sG5-Fw-Juh" id="TqI-sJ-STz">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="j6c-QV-x2s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Vrg-mG-11N">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="sG5-Fw-Juh" id="dat-qb-Dp8"/>
+                            <outlet property="delegate" destination="sG5-Fw-Juh" id="aCn-wp-Kb1"/>
+                        </connections>
+                    </collectionView>
+                    <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9Nz-nJ-tG1">
+                        <rect key="frame" x="0.0" y="240" width="320" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="OQK-wf-pdb"/>
+                        </constraints>
+                        <color key="pageIndicatorTintColor" systemColor="systemGray2Color"/>
+                        <color key="currentPageIndicatorTintColor" systemColor="tintColor"/>
+                    </pageControl>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="9Nz-nJ-tG1" secondAttribute="bottom" id="13d-mB-Ph0"/>
+                    <constraint firstItem="9Nz-nJ-tG1" firstAttribute="top" secondItem="j6c-QV-x2s" secondAttribute="bottom" id="RyA-py-icR"/>
+                    <constraint firstItem="9Nz-nJ-tG1" firstAttribute="leading" secondItem="TqI-sJ-STz" secondAttribute="leading" id="csX-q8-Iwc"/>
+                    <constraint firstItem="j6c-QV-x2s" firstAttribute="top" secondItem="TqI-sJ-STz" secondAttribute="top" id="hkH-OM-sSf"/>
+                    <constraint firstItem="j6c-QV-x2s" firstAttribute="leading" secondItem="TqI-sJ-STz" secondAttribute="leading" id="kwA-MK-vPh"/>
+                    <constraint firstAttribute="trailing" secondItem="9Nz-nJ-tG1" secondAttribute="trailing" id="l0C-le-TKd"/>
+                    <constraint firstAttribute="trailing" secondItem="j6c-QV-x2s" secondAttribute="trailing" id="nu5-9A-ZAM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="OTf-gr-0rs"/>
+            <connections>
+                <outlet property="carouselCollectionView" destination="j6c-QV-x2s" id="M3u-h2-jek"/>
+                <outlet property="pageControl" destination="9Nz-nJ-tG1" id="l4u-TQ-ugu"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="123"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

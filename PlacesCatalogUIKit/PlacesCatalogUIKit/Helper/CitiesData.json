@@ -1,0 +1,224 @@
+{
+    "cities": [
+        {
+            "name": "Mumbai",
+            "places": [
+                {
+                    "name": "Gateway of India",
+                    "imageName": "Mumbai",
+                    "description": "Location: Apollo Bunder, Colaba"
+                },
+                {
+                    "name": "Marine Drive",
+                    "imageName": "Mumbai",
+                    "description": "Location: South Mumbai, stretching from Nariman Point to Girgaum Chowpatty"
+                },
+                {
+                    "name": "Chhatrapati Shivaji Maharaj Terminus (CST)",
+                    "imageName": "Mumbai",
+                    "description": "Location: Fort, South Mumbai"
+                },
+                {
+                    "name": " Bandra-Worli Sea Link",
+                    "imageName": "Mumbai",
+                    "description": "Location: Connects Bandra in the western suburbs to Worli in South Mumbai"
+                },
+                {
+                    "name": "Juhu Beach",
+                    "imageName": "Mumbai",
+                    "description": "Location: Juhu, Western Suburbs"
+                },
+                {
+                    "name": "Haji Ali Dargah",
+                    "imageName": "Mumbai",
+                    "description": "Location: Worli"
+                },
+                {
+                    "name": "Colaba Causeway",
+                    "imageName": "Mumbai",
+                    "description": "Location: Colaba, Mumbai, Maharashtra 400005"
+                },
+                {
+                    "name": "Elephanta Caves",
+                    "imageName": "Mumbai",
+                    "description": "Location: Elephanta Island, Mumbai Harbour, Maharashtra"
+                },
+                {
+                    "name": "Siddhivinayak Temple",
+                    "imageName": "Mumbai",
+                    "description": "Location: SK Bole Marg, Prabhadevi, Mumbai"
+                }
+            ]
+        },
+        {
+            "name": "Pune",
+            "places": [
+                {
+                    "name": "Shaniwar Wada",
+                    "imageName": "Pune",
+                    "description": "Location: Shaniwar Peth"
+                },
+                {
+                    "name": "Aga Khan Palace",
+                    "imageName": "Pune",
+                    "description": "Location: Kalyani Nagar"
+                },
+                {
+                    "name": "Osho Ashram",
+                    "imageName": "Pune",
+                    "description": "Location: Koregaon Park"
+                },
+                {
+                    "name": "Sinhagad Fort",
+                    "imageName": "Pune",
+                    "description": "Location: 30 km southwest of Pune"
+                },
+                {
+                    "name": "Dagdusheth Halwai Ganpati Temple",
+                    "imageName": "Pune",
+                    "description": "Location: Budhwar Peth"
+                },
+                {
+                    "name": "Pataleshwar Cave Temple",
+                    "imageName": "Pune",
+                    "description": "Location: Jangali Maharaj Road (JM Road)"
+                }
+            ]
+        },
+        {
+            "name": "Mumbai",
+            "places": [
+                {
+                    "name": "Gateway of India",
+                    "imageName": "Mumbai",
+                    "description": "Location: Apollo Bunder, Colaba"
+                },
+                {
+                    "name": "Marine Drive",
+                    "imageName": "Mumbai",
+                    "description": "Location: South Mumbai, stretching from Nariman Point to Girgaum Chowpatty"
+                },
+                {
+                    "name": "Chhatrapati Shivaji Maharaj Terminus (CST)",
+                    "imageName": "Mumbai",
+                    "description": "Location: Fort, South Mumbai"
+                },
+                {
+                    "name": " Bandra-Worli Sea Link",
+                    "imageName": "Mumbai",
+                    "description": "Location: Connects Bandra in the western suburbs to Worli in South Mumbai"
+                },
+                {
+                    "name": "Juhu Beach",
+                    "imageName": "Mumbai",
+                    "description": "Location: Juhu, Western Suburbs"
+                },
+                {
+                    "name": "Haji Ali Dargah",
+                    "imageName": "Mumbai",
+                    "description": "Location: Worli"
+                },
+                {
+                    "name": "Colaba Causeway",
+                    "imageName": "Mumbai",
+                    "description": "Location: Colaba, Mumbai, Maharashtra 400005"
+                },
+                {
+                    "name": "Elephanta Caves",
+                    "imageName": "Mumbai",
+                    "description": "Location: Elephanta Island, Mumbai Harbour, Maharashtra"
+                },
+                {
+                    "name": "Siddhivinayak Temple",
+                    "imageName": "Mumbai",
+                    "description": "Location: SK Bole Marg, Prabhadevi, Mumbai"
+                }
+            ]
+        },
+        {
+            "name": "Pune",
+            "places": [
+                {
+                    "name": "Shaniwar Wada",
+                    "imageName": "Pune",
+                    "description": "Location: Shaniwar Peth"
+                },
+                {
+                    "name": "Aga Khan Palace",
+                    "imageName": "Pune",
+                    "description": "Location: Kalyani Nagar"
+                },
+                {
+                    "name": "Osho Ashram",
+                    "imageName": "Pune",
+                    "description": "Location: Koregaon Park"
+                },
+                {
+                    "name": "Sinhagad Fort",
+                    "imageName": "Pune",
+                    "description": "Location: 30 km southwest of Pune"
+                },
+                {
+                    "name": "Dagdusheth Halwai Ganpati Temple",
+                    "imageName": "Pune",
+                    "description": "Location: Budhwar Peth"
+                },
+                {
+                    "name": "Pataleshwar Cave Temple",
+                    "imageName": "Pune",
+                    "description": "Location: Jangali Maharaj Road (JM Road)"
+                }
+            ]
+        },
+        {
+            "name": "Mumbai",
+            "places": [
+                {
+                    "name": "Gateway of India",
+                    "imageName": "Mumbai",
+                    "description": "Location: Apollo Bunder, Colaba"
+                },
+                {
+                    "name": "Marine Drive",
+                    "imageName": "Mumbai",
+                    "description": "Location: South Mumbai, stretching from Nariman Point to Girgaum Chowpatty"
+                },
+                {
+                    "name": "Chhatrapati Shivaji Maharaj Terminus (CST)",
+                    "imageName": "Mumbai",
+                    "description": "Location: Fort, South Mumbai"
+                },
+                {
+                    "name": " Bandra-Worli Sea Link",
+                    "imageName": "Mumbai",
+                    "description": "Location: Connects Bandra in the western suburbs to Worli in South Mumbai"
+                },
+                {
+                    "name": "Juhu Beach",
+                    "imageName": "Mumbai",
+                    "description": "Location: Juhu, Western Suburbs"
+                },
+                {
+                    "name": "Haji Ali Dargah",
+                    "imageName": "Mumbai",
+                    "description": "Location: Worli"
+                },
+                {
+                    "name": "Colaba Causeway",
+                    "imageName": "Mumbai",
+                    "description": "Location: Colaba, Mumbai, Maharashtra 400005"
+                },
+                {
+                    "name": "Elephanta Caves",
+                    "imageName": "Mumbai",
+                    "description": "Location: Elephanta Island, Mumbai Harbour, Maharashtra"
+                },
+                {
+                    "name": "Siddhivinayak Temple",
+                    "imageName": "Mumbai",
+                    "description": "Location: SK Bole Marg, Prabhadevi, Mumbai"
+                }
+            ]
+        }
+    ]
+}
